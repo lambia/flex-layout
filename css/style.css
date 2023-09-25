@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* body, header, nav, main, aside, footer {
+	padding: 16px;
+} */
+
+.innerSpace {
+	padding: 16px;
+}
+
+body {
+	background-color: #222222;
+	color: white;
+	font-family: sans-serif;
+}
+
+.container {
+	/* width: 94%; */
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: goldenrod;
+	margin-bottom: 15px;
+
+	height: 150px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo > img {
+	width: 150px;
+}
+
+.menu {
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.menu-item {
+	padding: 0 15px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* invece di stretch che fa prendere tutto lo spazio verticale */
+	align-items: flex-start;
+}
+
+nav {
+	background: violet;
+	width: 24%;
+	/* height: 300px; */
+	min-height: 150px;
+}
+
+main {
+	background: purple;
+	width: 50%;
+	/* height: 450px; */
+	min-height: 300px;
+}
+
+aside {
+	width: 24%;
+	min-height: 150px;
+	background: violet;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+aside > img {
+	width: 100%;
+}
+
+footer {
+	background: lightblue;
+	height: 100px;
+	margin-top: 15px;
+}
